@@ -1,5 +1,5 @@
 * {
-    font-family: "Roboto Mono";
+  font-family: "Roboto Mono";
 }
 body {
   margin: 0;
@@ -32,31 +32,18 @@ nav a:first-child {
   margin: 5px 3%;
 }
 nav a:last-child {
-    background-color: #ff764e;
-    margin: 5px 3%;
+  background-color: #ff764e;
+  margin: 5px 3%;
 }
 
-//* {
+ {
   margin-top: 100px;
 }
-*/
-main {
-    display: inline-block;
-    justify-content: space-around;
-    align-items: center;
-}
-main img {
-    display: block;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-}
-/* .main-img {
+* .main-img {
   width: 30%;
   display: block;
-  align-items: center
-} */
+  align-items: center;
+}
 .main-text {
   width: 68%;
   display: inline-block;
@@ -68,35 +55,32 @@ main img {
   width: 200px;
   height: 200px;
 }
-.main-text {
-    text-align: center;
-}
+
 h1 {
-    font-family: "Chelsea Market";
+  font-family: "Chelsea Market";
 }
 #tanitim {
- background-color: #DDB9A3;
-color: white;
-padding: 5px 10px;
-margin-top: 40px;
+  background-color: #ddb9a3;
+  color: white;
+  padding: 5px 10px;
+  margin-top: 40px;
 }
 .bilgi {
-    width: 40%;
-    margin: 0 auto;
-    text-align: center
-    margin top 40px;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center margin top 40px;
 }
 .bilgi img {
-    width: 30%;
-    margin: 0 auto;
+  width: 30%;
+  margin: 0 auto;
 }
 footer {
-    background-color: #F9E7DC;
+  background-color: #f9e7dc;
 }
 footer div {
-    height: 150px;
-    background-image: url(assets/footer_img.jpg);
+  height: 150px;
+  background-image: url(assets/footer_img.jpg);
 }
 .spacer {
-    height: 100px;
+  height: 100px;
 }
