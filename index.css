@@ -1,0 +1,85 @@
+* {
+    font-family: "Roboto Mono";
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 755px;
+  background-color: white;
+  margin: 0 auto;
+}
+header {
+  padding: 20px;
+}
+nav a {
+  background-color: #5ed3eb;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  margin: 5px 15%;
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+  min-height: 16px;
+  vertical-align: middle;
+  font-size: 12px;
+}
+nav a:first-child {
+  background-color: #ffcd69;
+  margin: 5px 3%;
+}
+nav a:last-child {
+    background-color: #ff764e;
+    margin: 5px 3%;
+}
+
+main {
+  margin-top: 100px;
+}
+.main-img {
+  width: 30%;
+  display: inline-block;
+}
+.main-text {
+  width: 68%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+.main-img img {
+  border-radius: 80%;
+  width: 200px;
+  height: 200px;
+}
+h1 {
+    font-family: "Chelsea Market";
+}
+#tanitim {
+ background-color: #DDB9A3;
+color: white;
+padding: 5px 10px;
+margin top: 40px;
+}
+.bilgi {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center
+    margin top 40px;
+}
+.bilgi img {
+    width: 30%;
+    margin: 0 auto;
+}
+footer {
+    background-color: #F9E7DC;
+}
+footer div {
+    height: 150px;
+    background-image: url(assets/footer_img.jpg);
+}
+.spacer {
+    height: 100px;
+}
