@@ -36,13 +36,27 @@ nav a:last-child {
     margin: 5px 3%;
 }
 
-main {
+//* {
   margin-top: 100px;
 }
-.main-img {
-  width: 30%;
-  display: inline-block;
+*/
+main {
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
 }
+main img {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+/* .main-img {
+  width: 30%;
+  display: block;
+  align-items: center
+} */
 .main-text {
   width: 68%;
   display: inline-block;
@@ -54,6 +68,9 @@ main {
   width: 200px;
   height: 200px;
 }
+.main-text {
+    text-align: center;
+}
 h1 {
     font-family: "Chelsea Market";
 }
@@ -61,7 +78,7 @@ h1 {
  background-color: #DDB9A3;
 color: white;
 padding: 5px 10px;
-margin top: 40px;
+margin-top: 40px;
 }
 .bilgi {
     width: 40%;
